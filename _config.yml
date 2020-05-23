@@ -1,31 +1,23 @@
-# Dependencies
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: TechXperiments
+email: vijayamanikandan@gmail.com
+
+#write html inside the double quotes to display in jumbotron
+description: "<h1>Experiments that matter</h1>"
+
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.vijayarumugam.in" # the base hostname & protocol for your site
+twitter_username: vijz
+github_username:  vijayamanikandan
+
+# Build settings
 markdown: kramdown
-highlighter: pygments
-relative_url: true
-
-# Permalinks
-permalink: pretty
-
-# Setup
-title: Hyde
-tagline: "A Jekyll theme"
-description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url: https://blog.vijayarumugam.in/
-baseurl: /
-
-author:
-  name: "Mark Otto"
-  url: https://twitter.com/mdo
-
-paginate: 5
-
-# Custom vars
-version: 2.1.0
-
-github:
-  repo: https://github.com/poole/hyde
-
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - kramdown
